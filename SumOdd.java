@@ -7,6 +7,8 @@ public class SumOdd {
         int num = number.nextInt();
         int sum =sumOfOdd(num);
         System.out.println("The sum of all odd number till "+num+" is : "+sum);
+
+        number.close();
     }
 
     public static int sumOfOdd(int num){

@@ -8,6 +8,8 @@ public class pattern {
         firstPattern(row);
         secondPattern(row);
         thirdPattern(row);
+
+        input.close();
     }
     public static void thirdPattern(int maxRow) {
         System.out.println("\nThird Pattern :- Left Half Pyramid");

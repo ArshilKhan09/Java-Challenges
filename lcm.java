@@ -9,6 +9,8 @@ public class lcm {
         int num2 = number.nextInt();
         int lcm =least(num1,num2);
         System.out.println("The least Common Multiple of both the number is : "+ lcm);
+
+        number.close();
     }
 
     public static int least(int num1 , int num2){

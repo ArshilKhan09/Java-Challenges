@@ -12,6 +12,8 @@ public class Armstrong {
         else {
             System.out.println("Your Number is not Armstrong");
         }
+
+        number.close();
     }
     public static boolean isarmstrong(int num){
         int digit = digit(num);
@@ -42,5 +44,6 @@ public class Armstrong {
             num /= 10 ;
         }
         return digit;
+
     }
 }

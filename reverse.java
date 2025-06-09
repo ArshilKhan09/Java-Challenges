@@ -7,6 +7,8 @@ public class reverse {
         int num = inp.nextInt();
         int reverse = reverse(num);
         System.out.println("The reverse of the number is : "+reverse);
+
+        inp.close();
     }
     public static int reverse(int num){
         int sum = 0 ;
