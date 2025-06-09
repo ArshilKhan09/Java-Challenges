@@ -9,6 +9,8 @@ public class gcd {
         int num2 = number.nextInt();
         int gcd = gcd(num1, num2);
         System.out.println("The GCD of two number is : " + gcd);
+
+        number.close();
     }
 
     public static int gcd(int num1, int num2) {

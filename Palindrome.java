@@ -12,6 +12,8 @@ public class Palindrome  {      // Same as from Front And Back
         else {
            System.out.println("The number " + num + " is not palindrome");
         }
+
+        input.close();
     }
     public static boolean palindrome(int num){
         return num == reverse(num);

@@ -6,6 +6,9 @@ public class Multiplication {
         System.out.print("Enter the number for multiplication Table : ");
         int num = number.nextInt();
         int result =multi(num);
+        System.out.println(result);
+
+        number.close();
     }
     public static int multi(int num){
         int i = 1 ;

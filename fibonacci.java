@@ -7,6 +7,8 @@ public class fibonacci {
         int num = number.nextInt();
         System.out.println("The fibonacci series of "+num+" is :");
         fibonacci(num);
+
+        number.close();
     }
     public static void fibonacci(int num){
        if (num < 0) return;

@@ -7,6 +7,8 @@ public class SumDigits {
         int num = number.nextInt();
         int digits = sumOfDigit(num);
         System.out.println("The sum of "+num+" is : "+digits);
+
+        number.close();
     }
     public static int sumOfDigit(int num){
         int sum = 0 ;
