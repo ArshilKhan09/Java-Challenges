@@ -13,7 +13,7 @@ public class delete_Array {
          i++;
         }
 
-        System.out.println("Enter the number that you want to delete : ");
+        System.out.print("Enter the number that you want to delete : ");
         int numTodelete = number.nextInt();
 
         int[] newArr = deleteNumber(numArray, numTodelete);
@@ -27,7 +27,7 @@ public class delete_Array {
     public static int displayArray(int[] numArray){
         int i = 0 ;
         while (i<numArray.length) {
-            System.out.println(numArray[i]+ " ");
+            System.out.print(numArray[i]+ " ");
             i++;
         }
         System.out.println();
