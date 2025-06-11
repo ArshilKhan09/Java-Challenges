@@ -1,4 +1,3 @@
-// This class provides utility functions for array input
 import java.util.Scanner;
 
 public class ArrayUtility {
