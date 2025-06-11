@@ -28,6 +28,6 @@ public class reverse {
             num /= 10;                    // Remove last digit from original number
         }
 
-        return sum; // Return the reversed number
+        return sum ; // Return the reversed number
     }
 }
