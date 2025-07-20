@@ -13,6 +13,8 @@ public class overloadedMethod {
 
         addition(num1,num2);
         addition(num1,num2,num3);
+
+        input.close();
     }
      static void addition ( int num1, int num2){
         int sum = num1 + num2;
