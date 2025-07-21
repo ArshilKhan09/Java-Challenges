@@ -24,16 +24,12 @@ public class game {
         System.out.println("Computer Choice : "+computerchoice);
 
 
-        if (playerchoice == computerchoice) {
+        if (playerchoice.equals(computerchoice)) {
             System.out.println("Its a Tie ");
         }
-        else if(playerchoice.equals("rock") && computerchoice.equals("scissor")){
-            System.out.println("You Win ");
-        }
-        else if(playerchoice.equals("scissor") && computerchoice.equals("paper")){
-            System.out.println("You Win ");
-        }
-         else if(playerchoice.equals("paper") && computerchoice.equals("rock")){
+        else if((playerchoice.equals("rock") && computerchoice.equals("scissor")) || 
+               (playerchoice.equals("scissor") && computerchoice.equals("paper")) ||
+               (playerchoice.equals("paper") && computerchoice.equals("rock"))){
             System.out.println("You Win ");
         }
         else {
