@@ -6,11 +6,15 @@ public class game {
         
         Scanner input = new Scanner(System.in);
         Random random = new Random();
+
         String[] choices ={"rock" , "paper" , "scissor"};
         String playerchoice ;
         String computerchoice ;
         String playAgain = "yes";
 
+       
+        do{
+        
         System.out.print("Enter Your Move (rock , paper , scissor) : ");
         playerchoice = input.nextLine().toLowerCase();
 
@@ -18,6 +22,7 @@ public class game {
             !playerchoice.equals("paper") &&
             !playerchoice.equals("scissor")) {
             System.out.println("Invalid Choice ");
+            continue;
         }
 
         computerchoice=choices[random.nextInt(3)];
@@ -37,6 +42,11 @@ public class game {
 
         }
 
+        System.out.print("Play Again (yes/no)");
+        playAgain = input.nextLine().toLowerCase();
+
+        }while(playAgain.equals("yes"));
+       
         input.close();
     }
 }
