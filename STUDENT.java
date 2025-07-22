@@ -13,7 +13,7 @@ public class STUDENT {
         this.sgpa = sgpa;
         this.isstudent = isstudent;
 
-        // Print student details
+        // For Printing student details
         System.out.println(this.name);
         System.out.println(this.age);
         System.out.println(this.sgpa);
@@ -22,10 +22,10 @@ public class STUDENT {
     }
 
     public static void main(String[] args) {
-        // Create only ONE object
+        // Created only 1 object
         STUDENT student = new STUDENT();
 
-        // Reuse the same object to print different student details
+        // Reused the same object to print different student details
         student.setStudentDetails("Arshil", 20, 6.91, true);
         student.setStudentDetails("Rehan", 19, 7.65, true);
         student.setStudentDetails("Mustakim", 22, 8.73, false);
