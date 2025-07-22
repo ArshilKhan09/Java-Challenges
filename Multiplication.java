@@ -5,7 +5,7 @@ public class Multiplication {
         Scanner number = new Scanner(System.in); 
 
         System.out.print("Enter the number for multiplication Table: ");
-        int num = number.nextInt(); /
+        int num = number.nextInt(); 
 
         int result = multi(num);
 
