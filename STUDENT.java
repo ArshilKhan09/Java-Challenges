@@ -1,6 +1,6 @@
 public class STUDENT {
 
-    // Class variables (properties of the student)
+    // Class variables(properties of the student)
     String name;
     int age;
     double sgpa;
