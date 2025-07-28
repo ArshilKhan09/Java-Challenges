@@ -12,8 +12,8 @@ public static void main(String[] args) {
     Demo ep[] = new Demo[5];
 
     for (int i = 0; i < ep.length; i++) {
-            ep[i] = new Demo();
-        }
+        ep[i] = new Demo();
+    }
 
     ep[0].id = 1 ;
     ep[1].id = 2;
