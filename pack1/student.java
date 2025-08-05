@@ -12,7 +12,7 @@ public class Student {
         System.out.print("Enter Roll Number: ");
         rollNo = sc.nextInt();
         sc.nextLine();
-        
+                
     }
 
     public void displayStudent() {
