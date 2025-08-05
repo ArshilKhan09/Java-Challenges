@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Course {
     public String courseName;
-    public int courseCode;
 
     public void readCourse(Scanner sc) {
         System.out.print("Enter Course Name: ");
