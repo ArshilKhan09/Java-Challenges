@@ -2,18 +2,17 @@ package pack1;
 
 import java.util.Scanner;
 
-public class student {
+public class Student {
      public String name;
     public int rollNo;
 
-    public void readStudent() {
-        Scanner sc = new Scanner(System.in);
+    public void readStudent(Scanner sc) {
         System.out.print("Enter Student Name: ");
         name = sc.nextLine();
         System.out.print("Enter Roll Number: ");
         rollNo = sc.nextInt();
         sc.nextLine();
-        sc.close();
+        
     }
 
     public void displayStudent() {

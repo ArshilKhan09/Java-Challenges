@@ -1,17 +1,30 @@
 package pack2;
-import pack1.student;
-import pack1.course;
+import pack1.Student;
 
-public class college {
+import java.util.Scanner;
+
+import pack1.Course;
+
+public class College {
      public void accept() {
-        student s = new student();
-        course c = new course();
+
+      Scanner sc = new Scanner(System.in);
+        Student s = new Student();
+        Course c = new Course();
   
-        s.readStudent();
-        c.readCourse();
+        s.readStudent(sc);
+        c.readCourse(sc);
 
         System.out.println("\n--- Displaying Information ---");
         s.displayStudent();
         c.displayCourse();
+
+        sc.close();
+    }
+
+    public static void main(String[] args) {
+      College clg = new College();
+        clg.accept();
+        
     }
 }
