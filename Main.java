@@ -7,7 +7,7 @@
     System.out.println("Employee Name : "+name);
     }
 }
-public class main {
+public class Main {
 public static void main(String[] args) {
     Demo ep[] = new Demo[5];
 
