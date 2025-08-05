@@ -3,7 +3,7 @@ package pack1;
 import java.util.Scanner;
 
 public class Student {
-     public String name;
+    public String name;
     public int rollNo;
 
     public void readStudent(Scanner sc) {
@@ -12,11 +12,11 @@ public class Student {
         System.out.print("Enter Roll Number: ");
         rollNo = sc.nextInt();
         sc.nextLine();
-                
+
     }
 
     public void displayStudent() {
         System.out.println("Student Name: " + name);
-        System.out.println("Roll Number: " + rollNo); 
+        System.out.println("Roll Number: " + rollNo);
     }
 }
