@@ -1,9 +1,7 @@
 package pack2;
 import pack1.Student;
-
-import java.util.Scanner;
-
 import pack1.Course;
+import java.util.Scanner;
 
 public class College {
      public void accept() {
