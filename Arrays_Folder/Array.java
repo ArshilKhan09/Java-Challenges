@@ -24,7 +24,7 @@ public class Array{
         arr[1] = new Student(2, "vaibhav");
         arr[2] = new Student(3, "shikar");
         arr[3] = new Student(4, "dharmesh");
-        arr[4] = new Student(5, "mohit");
+        arr[4] = new Student(5, "mohit"); 
 
         // accessing the elements of the specified array
         for (int i = 0; i < arr.length; i++)
