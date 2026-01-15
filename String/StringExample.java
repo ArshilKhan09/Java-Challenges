@@ -3,6 +3,7 @@ public class StringExample {
         String name = "Arshil";
         String myName = "Arshil";
         name = "Khan";
+        System.out.println(myName);
         System.out.println(name);
     }
 }
