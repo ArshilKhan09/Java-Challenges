@@ -8,11 +8,10 @@ public class m_Lec1 {
 
         System.out.print("Enter the first Number : ");
         int a = sc.nextInt();
-
         System.out.print("Enter the second Number : ");
         int b = sc.nextInt();
 
-        int sum = addition(a, b);
+        int sum = addition(a,b);
         System.out.print("The sum of two Number is "+sum);
     }
 
