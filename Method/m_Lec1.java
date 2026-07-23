@@ -15,7 +15,6 @@ public class m_Lec1 {
         System.out.print("The sum of two Number is "+sum);
     }
 
-
     static int addition(int x , int y){
         int sum = x+y;
         return sum;
